@@ -10,6 +10,7 @@ import Features from '../components/Features';
 import ImageBlock from '../components/ImageBlock';
 import Social from '../components/Social';
 import Card from '../components/Card';
+import Block from '../components/Block';
 
 const IndexPage = () => (
   <MainWrapper>
@@ -26,6 +27,19 @@ const IndexPage = () => (
 
       <FullWidth>
         <Features />
+      </FullWidth>
+
+      <FullWidth>
+        <Block
+          bgColor='dark'
+          text='Corned beef swine buffalo, cow leberkas porchetta flank strip steak.'
+        />
+      </FullWidth>
+
+      <FullWidth>
+        <Block
+          text='Brisket pork pastrami sirloin.'
+        />
       </FullWidth>
 
       <SubCenteredWidth>
