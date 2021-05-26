@@ -32,13 +32,13 @@ const IndexPage = () => (
       <FullWidth>
         <Block
           bgColor='dark'
-          text='Corned beef swine buffalo, cow leberkas porchetta flank strip steak.'
+          title='Corned beef swine buffalo.'
         />
       </FullWidth>
 
       <FullWidth>
         <Block
-          text='Brisket pork pastrami sirloin.'
+          title='Brisket pork pastrami sirloin.'
         />
       </FullWidth>
 
