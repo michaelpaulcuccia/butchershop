@@ -20,7 +20,7 @@ const TextContainer = styled.div`
     h1 {
         padding-top: 5px;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1000px) {
             font-size: 20px;
         }
     }
@@ -33,6 +33,7 @@ const TextContainer = styled.div`
 `;
 
 const IconContainer = styled.div`
+    //sets icons at bottom
     position: absolute;
     bottom: 15px;
     right: 15px;
@@ -41,7 +42,7 @@ const IconContainer = styled.div`
     justify-content: flex-end;
     
     
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
         position: relative;
         justify-content: center;
         margin-top: 30px;

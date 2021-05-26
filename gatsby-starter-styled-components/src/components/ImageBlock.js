@@ -18,7 +18,7 @@ const TextContainer = styled.div`
     flex-direction: column;
 
     h1 {
-        @media (max-width: 768px) {
+        @media (max-width: 1000px) {
             font-size: 24px;
         }
     }
@@ -27,19 +27,19 @@ const TextContainer = styled.div`
         font-size: 24px;
         font-weight: bold;
 
-        @media (max-width: 768px) {
+        @media (max-width: 1000px) {
             font-size: 16px;
         }
     }
 `;
 
-const ImageBlock = () => {
+const ImageBlock = props => {
     return (
         <Container>
             <TextContainer>
-                <h1>Bacon</h1>
-                <p>Kielbasa andouille chislic ground round, prosciutto alcatra short loin.</p>
-                <p>Pig swine boudin cupim.</p>
+                <h1>{props.title}</h1>
+                <p>{props.textOne}</p>
+                <p>{props.textTwo}</p>
             </TextContainer>
         </Container>
     )

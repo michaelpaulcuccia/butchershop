@@ -12,7 +12,7 @@ export const Container = styled.div`
   margin: 15px 15px;
   width: 1032px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     width: 700px;   
   }
 `;
@@ -29,4 +29,11 @@ export const FullWidth = styled.div`
 export const SubCenteredWidth = styled.div`
   //background-color: yellow;
   margin: 5px 30px;
+  display: flex;
+  justify-content: space-evenly;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
