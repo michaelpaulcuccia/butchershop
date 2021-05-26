@@ -7,7 +7,8 @@ import {
   SubCenteredWidth
 } from "../components/layoutComponents";
 import Features from '../components/Features';
-import ImageBlock from '../components/ImageBlock'
+import ImageBlock from '../components/ImageBlock';
+import Social from '../components/Social';
 
 const IndexPage = () => (
   <MainWrapper>
@@ -17,6 +18,9 @@ const IndexPage = () => (
       </FullWidth>
       <FullWidth>
         <ImageBlock />
+      </FullWidth>
+      <FullWidth>
+        <Social />
       </FullWidth>
     </Container>
   </MainWrapper>
