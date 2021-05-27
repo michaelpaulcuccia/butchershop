@@ -13,6 +13,8 @@ import Card from '../components/Card';
 import Menu from '../components/Menu';
 import Beef from '../images/beef.svg';
 import Chicken from '../images/chicken.svg';
+import Pork from '../images/pork.svg';
+import Fish from '../images/fish.svg';
 
 const itemsAndPrice_Beef = [
   { cut: 'Kobe Wagyu Burgers', price: '20.99' },
@@ -32,7 +34,28 @@ const itemsAndPrice_Chicken = [
   { cut: 'Chicken Thighs', price: '10.99' },
 ];
 
+const itemsAndPrice_Pork = [
+  { cut: 'Provolone Sausage', price: '10.99' },
+  { cut: 'Hot Italian Sausage ', price: '9.99' },
+  { cut: 'Sweet Italian Sausage ', price: '9.99' },
+  { cut: 'Pork Hot Dogs', price: '9.99' },
+  { cut: 'Double Smoked Bacon', price: '12.99' },
+  { cut: 'Baby Back Ribs', price: '19.99' },
+  { cut: 'Spare Ribs', price: '15.99' },
+  { cut: 'Boneless Pork Loin', price: '17.99' },
+  { cut: 'Pork Tenderloin', price: '15.99' },
+  { cut: 'Bone-In Pork Chops', price: '15.99' },
+  { cut: 'BonelessPork Chops', price: '17.99' },
+];
 
+const itemsAndPrice_Fish = [
+  { cut: 'UPeel Shrimp', price: '19.99' },
+  { cut: 'Mussells', price: '12.99' },
+  { cut: 'Diver Scallops', price: '20.99' },
+  { cut: 'Tuna', price: '19.99' },
+  { cut: 'Salmon', price: '18.99' },
+  { cut: 'Sea Bass', price: '19.99' },
+];
 
 const IndexPage = () => (
   <MainWrapper>
@@ -64,16 +87,30 @@ const IndexPage = () => (
         />
       </FullWidth>
 
-      <SubCenteredWidth>
-        <Card title='Hello' content='I am a card. Please add text!' />
-        <Card title='Bacon Ispum' content='Doner prosciutto sausage, cupim ham kevin tri-tip shankle buffalo flank filet mignon ribeye pancetta pork chop capicola. Ball tip spare ribs tail drumstick shankle cupim.' />
-        <Card title='Yo' content="What's up with all the bacon on this page???" />
-      </SubCenteredWidth>
+      <FullWidth>
+        <Menu
+          bgColor='cream'
+          title='Pork'
+          itemsAndPrice={itemsAndPrice_Pork}
+          icon={Pork}
+        />
+      </FullWidth>
+
+      <FullWidth>
+        <Menu
+          bgColor='redish'
+          title='Fish'
+          itemsAndPrice={itemsAndPrice_Fish}
+          icon={Fish}
+        />
+      </FullWidth>
 
       <SubCenteredWidth>
-        <Card title='Bacon' content='Filet mignon alcatra ground round, swine tail pastrami pig biltong meatloaf ham fatback capicola ball tip.' />
-        <Card title='More Bacon' content='Turkey chuck flank meatball, beef ribs bacon drumstick andouille doner cow short ribs shoulder venison jerky.' />
+        <Card title='Jane' content='I am a card. Please add text!' />
+        <Card title='Bob' content='Doner prosciutto sausage, cupim ham kevin tri-tip shankle buffalo flank filet mignon ribeye pancetta pork chop capicola. Ball tip spare ribs tail drumstick shankle cupim.' />
+        <Card title='Dave' content="What's up with all the bacon on this page???" />
       </SubCenteredWidth>
+
 
       <FullWidth>
         <Social />

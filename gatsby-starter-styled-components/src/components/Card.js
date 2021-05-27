@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Cards from '../images/cards.png';
+//import Cards from '../images/cards.png';
+import Star from '../images/star.svg';
 
 const Container = styled.div`
     height: 250px;
@@ -13,7 +14,7 @@ const Container = styled.div`
     .title-container {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        //justify-content: space-between;
 
         h1 {
             color: #fff;
@@ -21,9 +22,9 @@ const Container = styled.div`
         }
 
         img {
-            height: 35px;
-            width: 35px;
-            margin-right: 10px;
+            height: 20px;
+            width: 20px;
+            margin-right: 2px;
         }
     }
 
@@ -46,7 +47,11 @@ const Card = props => {
         <Container>
             <div className='title-container'>
                 <h1>{props.title}</h1>
-                <img src={Cards} />
+                <img src={Star} />
+                <img src={Star} />
+                <img src={Star} />
+                <img src={Star} />
+                <img src={Star} />
             </div>
             <div className='line' />
             <div className='content'>
