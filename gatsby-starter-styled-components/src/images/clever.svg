@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="35.121284mm"
+   width="65.58564mm"
+   viewBox="0 0 232.39006 124.44549"
+   id="svg3226"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="cleaver.svg">
+  <title
+     id="title3252">Cleaver</title>
+  <defs
+     id="defs3232" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
+     id="namedview3230"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.49406706"
+     inkscape:cx="-240.01238"
+     inkscape:cy="-71.123713"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3226" />
+  <metadata
+     id="metadata3228">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Cleaver</dc:title>
+        <dc:date>2017-03-25</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Algot Runeman</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Algot Runeman</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>runeman.org</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>cleaver.svg</dc:identifier>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g3203"
+     transform="matrix(0.42056397,0.24281273,-0.24281273,0.42056397,402.31684,-0.91434781)"
+     inkscape:export-xdpi="116.18397"
+     inkscape:export-ydpi="116.18397">
+    <path
+       id="path3188"
+       d="m -640,372.36133 c -17.08893,36.24441 -18.75546,87.9112 -20,140 l 280,0 0,-100 160,0 20,0 20,-20 -20,-20 -20,0 -160,0 -260,0 z m 13.88086,9.875 a 10.004855,10.004855 0 0 1 10.00391,10.00586 10.004855,10.004855 0 0 1 -10.00391,10.0039 10.004855,10.004855 0 0 1 -10.00586,-10.0039 10.004855,10.004855 0 0 1 10.00586,-10.00586 z"
+       style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3190"
+       d="m -660,486.3622 c 90.62306,13.55138 183.97959,13.43541 280,0 l 0,26 c -93.33333,13.43541 -186.66667,13.55138 -280,0 z"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccsssc"
+       inkscape:connector-curvature="0"
+       id="path3192"
+       d="m -380,372.3622 0,40 c 0,0 124.56723,22.96101 180,0 8.71042,-3.60797 20,-10.57191 20,-20 0,-9.42809 -11.28958,-16.39203 -20,-20 -55.43277,-22.96101 -180,0 -180,0 z"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <circle
+       r="4.8780489"
+       cy="392.36221"
+       cx="-350.34396"
+       id="path3194"
+       style="opacity:0.75;fill:#ffff00;fill-opacity:1;stroke:#b3b3b3;stroke-width:0.24390243;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <circle
+       style="opacity:0.75;fill:#ffff00;fill-opacity:1;stroke:#b3b3b3;stroke-width:0.24390243;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle3196"
+       cx="-280.34396"
+       cy="392.36221"
+       r="4.8780489" />
+    <circle
+       r="4.8780489"
+       cy="392.36221"
+       cx="-206.34396"
+       id="circle3198"
+       style="opacity:0.75;fill:#ffff00;fill-opacity:1;stroke:#b3b3b3;stroke-width:0.24390243;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>

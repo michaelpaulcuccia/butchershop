@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 //import ArrowPoints from './ArrowPoints';
-import Arrow from '../images/Arrow.svg';
+import Clever from '../images/clever.svg';
 
 
 const Container = styled.div`
@@ -37,24 +37,33 @@ const Features = () => {
     return (
         <Container>
             <Points>
-                <img src={Arrow} />
-                <p>chislic spare ribs pastrami doner andouille. Flank porchetta capicola, shoulder pork biltong turducken prosciutto</p>
+                <img src={Clever} />
+                <p>100% grass-fed beef and pasture-raised beef (raised on grass then finished on natural grains)</p>
+
             </Points>
             <Points>
-                <img src={Arrow} />
-                <p>landjaeger brisket flank t-bone frankfurter pork. Strip steak turkey tongue, pastrami</p>
+                <img src={Clever} />
+                <p>Heritage breed pork (Berkshire, Tamsworth, and Duroc, and cross breeds)</p>
             </Points>
             <Points>
-                <img src={Arrow} />
-                <p>chislic spare ribs pastrami doner andouille. Flank porchetta capicola, shoulder pork biltong turducken prosciutto</p>
+                <img src={Clever} />
+                <p>Free-range and free-range organic chicken as well as truly-pasture raised chicken</p>
             </Points>
             <Points>
-                <img src={Arrow} />
-                <p>landjaeger brisket flank t-bone frankfurter pork. Strip steak turkey tongue.</p>
+                <img src={Clever} />
+                <p>Wild-caught and farm-raised seafood from some of the most sustainable sources in the world</p>
             </Points>
             <Points>
-                <img src={Arrow} />
-                <p>landjaeger brisket flank t-bone frankfurter pork. Strip steak turkey tongue. </p>
+                <img src={Clever} />
+                <p>Homemade sausages & burgers made with pride & passion</p>
+            </Points>
+            <Points>
+                <img src={Clever} />
+                <p>Locally sourced - we strive to work with farmers and ranchers within a 150-mile radius</p>
+            </Points>
+            <Points>
+                <img src={Clever} />
+                <p>Quality and freshness ALWAYS guaranteed</p>
             </Points>
 
         </Container>
