@@ -66,7 +66,7 @@ const Cream = styled(Container)`
         justify-content: space-between;
 
         h1 {
-            color: #000000;
+            color: #fff;
             padding-top: 20px;
             padding-left: 20px;
             padding-right: 20px;
@@ -99,7 +99,7 @@ const Gray = styled(Container)`
         justify-content: space-between;
 
         h1 {
-            color: #000000;
+            color: #fff;
             padding-top: 20px;
             padding-left: 20px;
             padding-right: 20px;

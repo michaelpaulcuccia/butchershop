@@ -74,7 +74,7 @@ const IndexPage = () => (
       <FullWidth>
         <Menu
           bgColor='dark'
-          title='Beef'
+          title='Beef - Grass Fed and Pasture Raised'
           itemsAndPrice={itemsAndPrice_Beef}
           icon={Beef}
         />
@@ -82,7 +82,7 @@ const IndexPage = () => (
 
       <FullWidth>
         <Menu
-          title='Chicken'
+          title='Chicken - Free Range, Free Range Organic, Pasture Raised'
           itemsAndPrice={itemsAndPrice_Chicken}
           icon={Chicken}
         />
@@ -91,7 +91,7 @@ const IndexPage = () => (
       <FullWidth>
         <Menu
           bgColor='cream'
-          title='Pork'
+          title='Pork - Heritage and Cross Breeds'
           itemsAndPrice={itemsAndPrice_Pork}
           icon={Pork}
         />
@@ -100,7 +100,7 @@ const IndexPage = () => (
       <FullWidth>
         <Menu
           bgColor='redish'
-          title='Fish'
+          title='Fish - Wild Caught and Farm Raised'
           itemsAndPrice={itemsAndPrice_Fish}
           icon={Fish}
         />

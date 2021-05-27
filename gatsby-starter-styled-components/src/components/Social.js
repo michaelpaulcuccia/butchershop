@@ -15,12 +15,22 @@ const Container = styled.div`
 
 const TextContainer = styled.div`
     text-align: center;
+    font-family: Montez;
 
     h1 {
         padding-top: 5px;
+        
 
         @media (max-width: 1000px) {
             font-size: 20px;
+        }
+    }
+
+    p {
+        font-size: 20px;
+
+        @media (max-width: 1000px) {
+            font-size: 16px;
         }
     }
 
@@ -55,7 +65,9 @@ const Social = () => {
     return (
         <Container>
             <TextContainer>
-                <h1>Thank you for visiting The Butcher Shop</h1>
+                <h1>The Butcher Shop</h1>
+                <p>100 Main Street</p>
+                <p>Metuchen, NJ 08840</p>
             </TextContainer>
             <IconContainer>
                 <img src={Facebook} />
