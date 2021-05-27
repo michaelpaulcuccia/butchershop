@@ -17,7 +17,8 @@ const Container = styled.div`
     }
     
     p {
-        color: #fff;       
+        color: #fff;      
+        font-family: Montserrat; 
     }
 `;
 

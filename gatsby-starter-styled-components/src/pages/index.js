@@ -8,9 +8,10 @@ import {
 } from "../components/layoutComponents";
 import Features from '../components/Features';
 import HeroAndHeader from '../components/HeroAndHeader';
-import Social from '../components/Social';
+import Footer from '../components/Footer';
 import Card from '../components/Card';
 import Menu from '../components/Menu';
+import ComingSoon from '../components/ComingSoon';
 import Beef from '../images/beef.svg';
 import Chicken from '../images/chicken.svg';
 import Pork from '../images/pork.svg';
@@ -80,6 +81,10 @@ const IndexPage = () => (
         />
       </FullWidth>
 
+      <SubCenteredWidth>
+        <ComingSoon />
+      </SubCenteredWidth>
+
       <FullWidth>
         <Menu
           title='Chicken - Free Range, Free Range Organic, Pasture Raised'
@@ -114,7 +119,7 @@ const IndexPage = () => (
 
 
       <FullWidth>
-        <Social />
+        <Footer />
       </FullWidth>
 
     </Container>

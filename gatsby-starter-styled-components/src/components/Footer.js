@@ -8,14 +8,15 @@ import YouTube from '../images/youtube.svg';
 
 const Container = styled.div`
     width: 100%;
-    height: 100px;
-    //to set icons at bottom
-    position: relative;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
 `;
 
 const TextContainer = styled.div`
     text-align: center;
     font-family: Montez;
+    
 
     h1 {
         padding-top: 5px;
@@ -37,33 +38,48 @@ const TextContainer = styled.div`
 `;
 
 const IconContainer = styled.div`
-    //sets icons at bottom
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
+    border-left: 1px solid #000000;
+    padding-left: 25px;
 
     display: flex;
     justify-content: flex-end;
-    
+    align-items: center;
     
     @media (max-width: 1000px) {
-        position: relative;
-        justify-content: center;
-        margin-top: 30px;
-        //needed to center
-        margin-left: 40px;
+        flex-direction: column;
+        justify-content: flex-start;
     }
      
     img {
         height: 25px;
         width: 25px;
-        margin-right: 10px;
+        margin-right: 10px;       
+        
+        @media (max-width: 1000px) {
+            
+            height: 20px;
+            width: 20px;
+            margin-bottom: 10px;  
+        }
     }
 `;
 
-const Social = () => {
+const ShopContainer = styled.div`
+    border-right: 1px solid #000000;
+    padding-right: 25px;
+    font-family: Montserrat; 
+`;
+
+const Footer = () => {
     return (
         <Container>
+            <ShopContainer>
+                <p><strong>Shop</strong></p>
+                <p>Beef</p>
+                <p>Pork</p>
+                <p>Chicken</p>
+                <p>Fish</p>
+            </ShopContainer>
             <TextContainer>
                 <h1>The Butcher Shop</h1>
                 <p>100 Main Street</p>
@@ -80,4 +96,4 @@ const Social = () => {
     )
 }
 
-export default Social
+export default Footer

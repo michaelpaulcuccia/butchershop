@@ -33,12 +33,12 @@ const Redish = styled(Container)`
         justify-content: space-between;
 
         h1 {
+            font-family: Montserrat; 
             color: #fff;
             padding-top: 20px;
             padding-left: 20px;
             padding-right: 20px;
             padding-bottom: 10px;
-            font-style: italic;
         }
         img {
             height: 45px;
@@ -66,12 +66,12 @@ const Cream = styled(Container)`
         justify-content: space-between;
 
         h1 {
+            font-family: Montserrat; 
             color: #fff;
             padding-top: 20px;
             padding-left: 20px;
             padding-right: 20px;
             padding-bottom: 10px;
-            font-style: italic;
         }
         img {
             height: 45px;
@@ -99,12 +99,12 @@ const Gray = styled(Container)`
         justify-content: space-between;
 
         h1 {
+            font-family: Montserrat; 
             color: #fff;
             padding-top: 20px;
             padding-left: 20px;
             padding-right: 20px;
             padding-bottom: 10px;
-            font-style: italic;
         }
         img {
             height: 45px;
@@ -132,12 +132,12 @@ const Dark = styled(Container)`
         justify-content: space-between;
 
         h1 {
+            font-family: Montserrat; 
             color: #fff;
             padding-top: 20px;
             padding-left: 20px;
             padding-right: 20px;
             padding-bottom: 10px;
-            font-style: italic;
         }
 
         img {
