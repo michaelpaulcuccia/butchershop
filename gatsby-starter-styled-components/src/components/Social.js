@@ -8,8 +8,7 @@ import YouTube from '../images/youtube.svg';
 
 const Container = styled.div`
     width: 100%;
-    height: 200px;
-    background: #d3d3d3;
+    height: 100px;
     //to set icons at bottom
     position: relative;
 `;
@@ -23,11 +22,6 @@ const TextContainer = styled.div`
         @media (max-width: 1000px) {
             font-size: 20px;
         }
-    }
-
-    ul {
-        list-style-type: none;
-        margin-top: 5px;
     }
 
 `;
@@ -61,12 +55,7 @@ const Social = () => {
     return (
         <Container>
             <TextContainer>
-                <h1>Porchetta rump ribeye boudin brisket. </h1>
-                <ul>
-                    <li>beef pastrami</li>
-                    <li>steak turducken</li>
-                    <li>swine spare ribs</li>
-                </ul>
+                <h1>Thank you for visiting The Butcher Shop</h1>
             </TextContainer>
             <IconContainer>
                 <img src={Facebook} />

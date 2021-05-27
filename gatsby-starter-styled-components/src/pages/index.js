@@ -16,6 +16,7 @@ import Chicken from '../images/chicken.svg';
 import Pork from '../images/pork.svg';
 import Fish from '../images/fish.svg';
 
+
 const itemsAndPrice_Beef = [
   { cut: 'Kobe Wagyu Burgers', price: '20.99' },
   { cut: 'Sirloin Burgers', price: '12.99' },
@@ -106,9 +107,9 @@ const IndexPage = () => (
       </FullWidth>
 
       <SubCenteredWidth>
-        <Card title='Jane' content='I am a card. Please add text!' />
-        <Card title='Bob' content='Doner prosciutto sausage, cupim ham kevin tri-tip shankle buffalo flank filet mignon ribeye pancetta pork chop capicola. Ball tip spare ribs tail drumstick shankle cupim.' />
-        <Card title='Dave' content="What's up with all the bacon on this page???" />
+        <Card title='Jane Plain' content='These hamburgers are so incredibly good! Eat bite tastes like steak.' />
+        <Card title='Bob McKnob' content='I cooked the NY Strip tonight and it was AWESOME!!! From frozen to done in just 15 minutes. Cast iron sear and then a 525 oven on the rack.' />
+        <Card title='Turd Ferguson' content="Got my beef! All is wonderful! We want to thank you SO much! The process was so easy, and the notifications were excellent. Best of all, the beef was AMAZING in quality and taste. We will definitely be ordering more in the future." />
       </SubCenteredWidth>
 
 

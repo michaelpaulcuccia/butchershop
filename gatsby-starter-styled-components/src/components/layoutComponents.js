@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainWrapper = styled.div`
-  //background-color: black;
+  background-color: #dfdfdf;
   min-height: 100vh;
   display: flex;
   justify-content: center;

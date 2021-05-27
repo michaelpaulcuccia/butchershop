@@ -6,6 +6,15 @@ const Container = styled.div`
     margin-left: 20px;
     margin-top: 5px;
     padding-bottom: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+
+    @media (max-width: 1000px) {
+        display: flex;
+        flex-direction: column;
+    }
     
     p {
         color: #fff;       

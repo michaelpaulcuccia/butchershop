@@ -14,11 +14,11 @@ const Container = styled.div`
     .title-container {
         display: flex;
         align-items: center;
-        //justify-content: space-between;
+        justify-content: space-around;
 
-        h1 {
+        p {
             color: #fff;
-            margin-left: 10px;
+            font-size: 24px;
         }
 
         img {
@@ -46,16 +46,18 @@ const Card = props => {
     return (
         <Container>
             <div className='title-container'>
-                <h1>{props.title}</h1>
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
-                <img src={Star} />
+                <p>{props.title}</p>
+                <span>
+                    <img src={Star} />
+                    <img src={Star} />
+                    <img src={Star} />
+                    <img src={Star} />
+                    <img src={Star} />
+                </span>
             </div>
             <div className='line' />
             <div className='content'>
-                <p>{props.content}</p>
+                <p><i>"{props.content}"</i></p>
             </div>
         </Container>
     )
