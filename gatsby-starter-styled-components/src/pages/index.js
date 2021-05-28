@@ -11,7 +11,6 @@ import HeroAndHeader from '../components/HeroAndHeader';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
 import Menu from '../components/Menu';
-import ComingSoon from '../components/ComingSoon';
 import Beef from '../images/beef.svg';
 import Chicken from '../images/chicken.svg';
 import Pork from '../images/pork.svg';
@@ -80,10 +79,6 @@ const IndexPage = () => (
           icon={Beef}
         />
       </FullWidth>
-
-      <SubCenteredWidth>
-        <ComingSoon />
-      </SubCenteredWidth>
 
       <FullWidth>
         <Menu
